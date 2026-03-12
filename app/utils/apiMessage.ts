@@ -21,5 +21,6 @@ export const apiMessages = {
     REFERENCE_ID_REQUIRED: "referenceId is required",
     TRANSACTION_ALREADY_PROCESSED: "Transaction already processed",
     WALLET_NOT_FOUND: "Wallet not found",
+    TRANSACTION_ALREADY_EXISTS: "Transaction already exists",
     
 }
