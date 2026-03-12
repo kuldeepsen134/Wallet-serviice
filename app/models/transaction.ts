@@ -50,7 +50,6 @@ const transactionSchema = new Schema<ITransaction>(
       enum: ["SUCCESS", "FAILED"],
       default: "SUCCESS"
     },
-    // 🔥 ADD THESE
     balanceBefore: {
       type: Number,
       required: true
